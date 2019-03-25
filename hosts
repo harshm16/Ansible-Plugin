@@ -1,0 +1,6 @@
+## db-[99:101]-node.example.com
+#This is the spark master IP address
+[cassandra-node]
+15.213.95.210
+
+

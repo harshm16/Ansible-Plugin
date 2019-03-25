@@ -1,0 +1,5 @@
+- name: Ansible Plugin
+  hosts: all
+  remote_user: root
+  roles:
+    - role: aplugin

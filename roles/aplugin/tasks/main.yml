@@ -1,0 +1,5 @@
+- name: new file
+  copy:
+    content: ""
+    dest: /root/newfile1.txt
+  when: inventory_hostname in groups['cassandra-node']
